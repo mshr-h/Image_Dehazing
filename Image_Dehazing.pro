@@ -31,7 +31,8 @@ SOURCES += main.cpp \
     lib_c/img_create.c \
     lib_c/img_destruct.c \
     lib_c/arry_pix_create.c \
-    lib_c/arry_pix_destruct.c
+    lib_c/arry_pix_destruct.c \
+    lib_c/Dehaze.c
 
 HEADERS  += \
     include/image.h \

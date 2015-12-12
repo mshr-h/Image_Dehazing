@@ -4,6 +4,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define DRK_CH_WND_WT 5 //should be an odd number
+#define DRK_CH_WND_HT 5 //should be an odd number
+
 #define MAX(x,y) ((x)<=(y)? (y):(x))
 #define MIN(x,y) ((x)<=(y)? (x):(y))
 
@@ -197,6 +200,15 @@ struct img_yuv_t *
 img_rgb_to_yuv
 (
     struct img_rgb_t *img_rgb
+);
+
+// dehaze
+
+struct img_rgb_t *
+Dehaze
+(
+    struct img_rgb_t *img_rgb,
+    double omega
 );
 
 #ifdef __cplusplus

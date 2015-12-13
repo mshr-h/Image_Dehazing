@@ -1,4 +1,4 @@
-# Haze removal using Dark channel prior ![travis-ci](https://travis-ci.org/mshr-h/Image_Dehazing.svg?branch=master)
+# Haze removal using Dark channel prior [![travis-ci](https://travis-ci.org/mshr-h/Image_Dehazing.svg?branch=master)](https://travis-ci.org/mshr-h/Image_Dehazing)
 ## Description
 This is an implementation of dehaze(haze removal) algorithm using C/C++ on Qt platform.
 The algorithm is written in C.

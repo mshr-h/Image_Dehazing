@@ -2,11 +2,13 @@
 
 struct img_rgb_t *Dehaze
 (
-    struct img_rgb_t *img_rgb,
-    double omega
+    struct img_rgb_t *in,
+    double omega,
+    double t0,
+    double p
 )
 {
     struct img_rgb_t *out;
-    out=img_rgb_create(img_rgb->wt,img_rgb->ht,0);
+    out=img_rgb_create(in->wt,in->ht,0);
     return out;
 }

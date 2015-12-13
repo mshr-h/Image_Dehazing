@@ -11,7 +11,10 @@ int main(int argc, char *argv[])
     auto in=QImage_to_img_rgb(new QImage(argv[1]));
 
     double omega=0.95;
-    auto out=Dehaze(in,omega);
+    double t0=0.01;
+    double p=0.1;
+
+    auto out=Dehaze(in,omega,t0,p);
 
     auto outImg=img_rgb_to_QImage(out);
 

@@ -1,14 +1,14 @@
 # Haze removal using Dark channel prior [![travis-ci](https://travis-ci.org/mshr-h/Image_Dehazing.svg?branch=master)](https://travis-ci.org/mshr-h/Image_Dehazing)
 ## Description
 This is an implementation of dehaze(haze removal) algorithm using C/C++ on Qt platform.
-The algorithm is written in C.
+The algorithm is [written in C](lib_c/Dehaze.c).
 
 ## What's the Dehaze
 Dehaze is a technique to improve the visibility of the outdoor images.
 
 ## Example
-| hazy image |  output |
-| :--------: | :-----: |
+|         hazy image         |              output             |
+| :------------------------: | :-----------------------------: |
 | ![](inImg_db/Fattal_2.png) | ![](outImg_db/Fattal_2_out.png) |
 - window size=5x5 pixels
 - ω=0.95
